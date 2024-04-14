@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Markazi Text', serif;
+	/*margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-right: 5%;
+	margin-left: 5%;*/
+}
+
+h1{
+	font-size: 1.55rem;
+	font-family: 'Helvetica' sans-serif;
+	text-align: left;
+	position: absolute;
+	top: 30%;
+	padding-left: 50px;
+}
+
+h2{
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	background-color: #f6f6f7;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+header > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: 1%;
+}
+
+nav li {
+	display: inline;
+	margin-right: 10px;
+	padding: 7px 15px 7px 15px;
+	/*border: 2px solid #DCDCDC;
+	border-radius: 10px;*/
+}
+
+nav li a {
+	color: #696969;
+	text-decoration: none;
+}
+
+i.fa {
+	padding-right: 7px;
+}
+
+main {
+	margin: 2% 10% 2% 10%;
+}
+
+section {
+	display: flex;
+}
+
+main > section:nth-child(1) {
+	/*background-image: url(image5.jpg);*/
+	background-image: url("https://github.com/AbdulinaLazzat/aaa/blob/main/image5.jpg?raw=true");	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 20em;
+	position: relative;
+}
+
+section:nth-child(2){
+	background-color: #f6f6f7;
+	margin-top: 2%;
+}
+
+.line {
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.chapter {
+	background-color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.chapter:nth-child(2){
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.chapter h2 {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.chapter > div {
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 40%;
+}
+
+.chapter > div img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+article {
+	flex: 1;
+}
+
+article > p {
+	padding: 20px;
+	text-align: justify;
+}
+
+footer {
+	display: flex;
+	background-color: #f6f6f7;
+	margin-right: 10%;
+	margin-left: 10%;
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+footer div {
+	flex: 1;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+footer > div img {
+	float: left;
+	margin-left: 2%;
+}
+
+footer > div p {
+	float: right;
+	margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
